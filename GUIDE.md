@@ -12,6 +12,7 @@ Flip converts files from your Mac's menu bar. Everything runs on your Mac with t
 - [Settings](#settings)
 - [Free trial and Pro license](#free-trial-and-pro-license)
 - [Updates](#updates)
+- [Privacy](#privacy)
 - [Troubleshooting](#troubleshooting)
 - [Uninstall](#uninstall)
 
@@ -33,11 +34,15 @@ You only need to do this once.
 
 ## Convert files
 
+![A drop zone grows out of the menu bar icon as a file gets close](assets/screenshots/shelf.png)
+
 There are three ways to add files:
 
 - **Drag them to the menu bar icon.** As a file gets close, a drop zone grows out of the icon. Let go over it.
 - **Drag them onto Flip's Dock icon.**
 - **Click the menu bar icon, then Choose Files…**
+
+<img src="assets/screenshots/popover.png" width="420" alt="The conversion list">
 
 Each file appears in the list with a suggested output format. Change the format of any file from its menu, then click **Convert**. Converted files are saved next to the originals unless you choose another folder in [Settings](#settings).
 
@@ -62,6 +67,8 @@ Word, RTF and ODT files convert without Microsoft Office. If Office is installed
 ## Archives
 
 Drop an archive on Flip and a browser window opens:
+
+![The archive browser](assets/screenshots/archive.png)
 
 - Click a file on the left to preview it on the right.
 - Check the files you want, then:
@@ -97,6 +104,8 @@ A slide with several animation steps usually turns into one cluttered PDF page, 
 
 Choose how slides are handled in Settings → Quality → **Presentation animations**:
 
+<img src="assets/screenshots/settings-quality.png" width="560" alt="Quality settings with the presentation animations option">
+
 - **Auto-split overlapping (recommended)**
 - **One page per animation step**
 - **Keep only the final state of each slide**
@@ -117,7 +126,7 @@ Open Settings from the menu bar icon (**Settings…**) or with ⌘,.
 
 | Tab | What you can change |
 |---|---|
-| General | App language, open at login, show the Dock icon, where files are saved, show in Finder after converting, convert immediately on drop, automatically extract downloads |
+| General | App language, open at login, show the Dock icon, where files are saved, show in Finder after converting, convert immediately on drop, automatically extract downloads, anonymous usage statistics |
 | Formats | Default output format for each kind of file |
 | Quality | Image quality, PDF-to-image resolution, paper size, Office conversion, presentation animations, audio bitrate, video encoding |
 | Passwords | Saved archive passwords |
@@ -143,6 +152,15 @@ To activate a license, open Settings → License, paste your key into **Enter Li
 ## Updates
 
 Flip checks for new versions automatically. When one is available, go to Settings → Updates and click **Download and Install**. Flip restarts with the new version. Turn off **Check for updates automatically** if you prefer to check yourself.
+
+## Privacy
+
+Every conversion happens on your Mac. Flip goes online only for two things:
+
+- **Checking for updates**, if **Check for updates automatically** is on in Settings → Updates.
+- **Anonymous usage statistics**, once a day, to learn how many people use Flip. Flip sends a random ID created on your Mac, the Flip and macOS versions, whether you're on the trial or Pro, and the app language. It never sends files, file names, passwords or personal data. Turn this off with **Send anonymous usage statistics** in Settings → General.
+
+License keys are verified offline.
 
 ## Troubleshooting
 
