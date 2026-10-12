@@ -76,6 +76,8 @@ Drop an archive on Flip and a browser window opens:
   - **Convert…** extracts them and adds them to the conversion list.
   - **Merge** combines them into one file. Choose the format from **Merge into**. Drag files in the list to change their order.
 
+To **add files to the archive**, drag them from Finder into the window, or click **Add Files…**. Flip writes them into the original archive. If everything sits in one top-level folder, new files go inside that folder. Files with the same name as an existing one are renamed rather than replaced. This works for ZIP (including password-protected ZIPs), 7z and tar archives; RAR and disk images can only be read.
+
 Extracting and compressing both show progress. Closing the window stops an extraction in progress.
 
 ## Passwords
